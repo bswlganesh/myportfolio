@@ -45,7 +45,7 @@ flex: 4;
     flex: 1;
     font-family: "Roboto", sans-serif;
     color: #31363F;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 0.8rem;
 }
 .sign{
@@ -68,8 +68,14 @@ flex: 4;
     grid-template-columns:70% 30% ;
      /* grid-template-rows: 0fr 0.3fr 0.3fr 0.5fr 0.5fr;  */
     row-gap: 10px;
+    column-gap: 5px;
     margin-top: 5rem;
     height: auto;
+}
+.bswlganesh{
+    font-weight: 700;
+    color: rgb(39, 39, 39);
+    font-size: 2.5rem;
 }
 .name{
     color: #222831;
@@ -91,7 +97,10 @@ flex: 4;
     font-family: "Roboto", sans-serif;
    
 }
-
+a{
+   text-decoration: none;
+   color: #222831;
+}
 .linktoother{
     color: #222831;
     grid-area: d;
@@ -102,7 +111,7 @@ flex: 4;
     font-size: 1rem;
     font-family: "Roboto", sans-serif;
 }
- .item{
+ .baselink{
     border-bottom: .001rem rgb(167, 167, 167) solid;
 } 
 .coolpic{
@@ -113,13 +122,16 @@ flex: 4;
     color: rgb(35, 35, 115);
     align-self: center;
     justify-self: center    ;
+   
 }
-
+.profileimage{
+    height: 15rem;
+}
 
 /* FOOTER */
 .footer{
     border-top: .001rem rgb(167, 167, 167) solid;
-    margin-top: 15rem;
+    margin-top: 9rem;
     height: 12rem;
     font-family: "Roboto", sans-serif;
 
@@ -143,17 +155,26 @@ flex: 4;
         "e "
         ;
         grid-template-columns:1fr;
-         /* grid-template-rows: 0fr 0.3fr 0.3fr 0.5fr 0.5fr;  */
+      
         row-gap: 10px;
         margin-top: 5rem;
         height: auto;
     }
     .header{
-        flex-direction: column;
+        
         gap: 5px;
         justify-content: center;
-        height: auto;
-    }   
+        
+    }  
+    .logo{
+        font-weight: 700;
+    } 
+    .linktoother{
+        gap: 1rem;
+    }
+    .name{
+        font-size: 1.4rem;
+    }
     
 }
 
@@ -173,10 +194,24 @@ flex: 4;
         margin-top: 5rem;
         height: auto;
     }
+    .bswlganesh{
+        font-weight: 700;
+        color: rgb(39, 39, 39);
+        font-size: 1.7Rem;
+    }
     .header{
         flex-direction: column;
         gap: 5px;
         justify-content: center;
         height: auto;
     }  
+    .logo{
+        font-weight: 700;
+    } 
+    .linktoother{
+        gap: 1rem;
+    }
+    .name{
+        font-size: 1.4rem;
+    }
 }
