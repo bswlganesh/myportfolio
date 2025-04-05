@@ -158,7 +158,25 @@ flex: 4;
 }
 
 @media (max-width: 480px) {
-    .list{
-        
-           }   
+    .information{
+        display: grid;
+        grid-template-areas: 
+        "a "
+        "b "
+        "c "
+        "d "
+        "e "
+        ;
+        grid-template-columns:1fr;
+         /* grid-template-rows: 0fr 0.3fr 0.3fr 0.5fr 0.5fr;  */
+        row-gap: 10px;
+        margin-top: 5rem;
+        height: auto;
+    }
+    .header{
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        height: auto;
+    }  
 }
