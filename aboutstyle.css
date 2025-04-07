@@ -1,0 +1,42 @@
+
+body{
+    background-color:#EEEEEE    ;
+     margin-left: 10%;
+    margin-right: 10%; 
+  
+}
+
+.header{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: flex-start; 
+   align-items: center;
+    border-bottom: .001rem rgb(167, 167, 167) solid;
+   
+}   
+.logo{
+   
+    font-family: "Roboto", sans-serif;
+    color: #31363F;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+
+.heading{
+    
+    
+    font-family: "Roboto", sans-serif;
+    color: #31363F;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% ;
+}
+.aboutme{
+   font-size: 2.1rem;
+   font-weight: 600;
+   font-family: "Roboto", sans-serif;
+}
